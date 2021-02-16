@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 0 auto;
+  background-color: white;
+}
+
+.App h1 {
+  text-align: center;
+  z-index: 20;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.App ul {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.App li {
+  margin: 10px 0;
+}
